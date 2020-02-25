@@ -1,0 +1,214 @@
+body {
+    color:white;
+    font-family:helvetica, sans-serif;
+    margin: 0 0 0 0;
+}
+/* Containers */
+.container {
+    display:flex;
+    max-width:1000px;
+    width:100%;
+    justify-content:space-between;  
+    align-items: center;
+}
+.main {
+    align-items: center;
+    flex-direction: column;
+}
+.bottom1 {
+    align-items: flex-start;
+}
+.bottom2 {
+    display:flex;
+    flex-direction: row;
+}
+
+/*Nav bar */
+img:hover {
+    cursor: pointer;
+}
+nav {
+    height:80px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    color:white;
+    background-color: black;
+    position:fixed;
+    width:100%;
+    opacity:0.7;
+} 
+
+
+nav:hover {
+    opacity: 0.6;
+    filter: alpha(opacity=10); /* For IE8 and earlier */
+}
+
+.spotify-logo {
+     width: 132px;
+  height: 41.88px;
+}
+
+a {
+    color:white;
+    text-decoration:none;
+    padding:10px;
+    font-weight: 500;
+}
+a:hover {
+    color:#1db954;
+}
+
+
+/*Main section */
+
+section {
+    height: 800px;
+    background-color: #f037a5;
+    background: linear-gradient(#f037a5 -60%, #fae62d 140%);
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(-60%, #f037a5),
+      color-stop(140%, #fae62d)
+    );
+  }
+  .hero-img {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://www.scdn.co/i/home/hero-burst.svg");
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+#title {
+    color: white;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 1.15;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: -0.04em;
+}
+
+.title-comment {
+    font-size: 20px;
+    margin-bottom:30px;
+}
+
+button {
+    border: 0px;
+    width: 260px;
+    color: white;
+    margin: 0 auto;
+    line-height: 1;
+    font-size: 14px;
+    margin-top: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 500px;
+    padding: 18px 42px 18px;
+    background-color: #1db954;
+    text-transform: uppercase;
+    transition-duration: 0.3s;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #1ed760;
+}
+button:focus {
+    outline:none;
+}
+
+/*Footer part*/
+footer {
+    height: 600px;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+.column {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+  }
+.column > h1 {
+    color: #919496;
+    font-size: 13.5px;
+  }
+
+.column > h1, p {
+  margin-bottom: 15px;
+}
+
+.footer-logo {
+    display:flex;
+    justify-content:center;
+    
+  
+}
+.footer-logo > h1 {
+    color: white;
+    font-size: 2em;
+    margin-left: 15px;
+    margin-bottom: 15px;
+
+  }
+.footer-icons {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+  }
+.footer-icons > .fab {
+    margin: 15px;
+  }
+.footer-icons > .fab:hover {
+    color: green;
+  }
+.footer-logo {
+    display: flex;
+  }
+.fab {
+    font-size: 50px;
+  }
+.column > p:hover {
+    color: green;
+    cursor: pointer;
+  }
+ul {
+    list-style: none;
+    display:flex;
+}
+
+li {
+    margin-left:30px;
+    font-size:11px;
+    color: #919496;
+}
+
+li:hover {
+    color: #1db954;
+    cursor: pointer;
+}
+.right > img {
+    width:25px;
+    color: red;
+}
+.right {
+    color: #919496;
+    font-size: 11px;
+    justify-content: flex-end;
+}
+.right > a {
+    font-size: 12px;
+    color: #1db954;
+}
+
